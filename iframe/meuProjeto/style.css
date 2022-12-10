@@ -1,0 +1,49 @@
+@charset "UTF-8";
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url(imgs/natureza-fundo.jpg.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+main {
+    height: 100vh;
+    position: relative;
+}
+section#tv {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(imgs/imagem-tv-nova.png);
+    height: 407px;
+    width: 584px;
+}
+iframe#telaTV {
+    background-color: blueviolet;
+    position: relative;
+    top: 20px;
+    left: 18px;
+    width: 544px;
+    height: 319px;
+}
+section#icones img  {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.258);
+    box-sizing: border-box;
+}
+section#icones img:hover {
+    transform: translate(10px, 10px);
+    border: 2px solid rgba(255, 255, 255, 0.427);
+}
