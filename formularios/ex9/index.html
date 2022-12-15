@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <p>
+            <label for="iidade">Em que ano você nasceu?</label>
+            <input type="number" name="idade" id="iidade" min="1900" max="2022" oninput="calcIdade()">
+        </p>
+        <p>
+            <label for="iage">Sua idade é:</label>
+            <output id="iage">0</output>
+        </p>
+        <p>
+            <input type="submit" value="OK">
+            <input type="reset" value="LIMPAR">
+        </p>
+    </form>
+
+    <script>
+        function calcIdade() {
+            let atual = new Date().getFullYear();
+            iage.innerHTML = Number(atual) - Number(iidade.value);
+        }
+    </script>
+</body>
+</html>
