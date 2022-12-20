@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) {
+    #burger {
+        display: none;
+    }
+    menu {
+        display: block;
+    }
+    li {
+        display: inline-block;
+    }
+    menu {
+        text-align: left;
+        background-color: rgb(37, 37, 37);
+    }
+    main {
+        width: 768px;
+    }
+}
