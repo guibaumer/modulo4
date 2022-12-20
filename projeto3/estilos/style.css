@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 * {
     margin: 0px;
     padding: 0px;
@@ -7,15 +7,20 @@
 }
 header {
     background-color: azure;
-    
+    text-align: center;
 }
 body {
     background-color: rgb(252, 229, 201);
 }
 h1 {
-    padding: 20px;
-    padding-bottom: 15px;
-    display: inline-block;
+    padding: 0px;
+    padding-bottom: 2px;
+    display: block;
+    margin: auto;
+    font-family: 'Pacifico', 'cursive';
+    font-weight: normal;
+    margin-right: 48px;
+    font-size: 2.5em;
 }
 li {
     list-style-type: none;

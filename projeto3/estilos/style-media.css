@@ -19,6 +19,8 @@
     }
     h1 {
         padding: 30px;
+        margin: 0px;
+        text-align: center;
     }
     a {
         color: white;
