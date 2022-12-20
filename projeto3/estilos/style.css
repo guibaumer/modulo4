@@ -7,10 +7,10 @@
 }
 header {
     background-color: azure;
-    text-align: center;    
+    
 }
 body {
-    background-color: bisque;
+    background-color: rgb(252, 229, 201);
 }
 h1 {
     padding: 20px;
@@ -26,13 +26,12 @@ li {
 li:hover {
     background-color: rgba(30, 29, 29, 0.041);
 }
-header a {
-    text-decoration: none;
-}
+
 a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     margin-top: 0px;
+    font-size: 1.1em;
 }
 menu {
     background-color: rgb(252, 252, 252);
@@ -53,11 +52,8 @@ main {
 }
 #meuMenu {
     color: brown;
-    display: inline-block; 
-    
     float: left;
     padding: 23px;
-    
     border: 1px solid rgba(0, 0, 0, 0.084);
 }
 #meuMenu:hover {
