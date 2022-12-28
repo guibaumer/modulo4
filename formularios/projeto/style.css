@@ -80,9 +80,7 @@ p {
     padding: 4px;
     border: 2px solid #89233d;
     border-radius: 5px;
-    color: white;
-    
-    
+    color: white;    
 }
 .material-symbols-outlined {
     color: white;
@@ -93,7 +91,6 @@ p {
     display: block;
     background-color: #DB3B63;
     border-radius: 5px;
-    
     width: 268px;
     margin: auto;
     margin-bottom: 7px;
