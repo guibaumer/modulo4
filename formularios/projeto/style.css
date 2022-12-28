@@ -27,7 +27,9 @@ h1 {
 }
 html, body {
     height: 100vh;
-    margin: 0px; padding: 0px;
+    margin: 0px;
+    padding: 0px;
+    overflow-y: hidden;
 }
 body {
     background-image: url(pexels-peng-liu-169647.jpg);
