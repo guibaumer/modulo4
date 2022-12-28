@@ -14,7 +14,7 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     background-image: linear-gradient(to bottom, #DB3B63, #25ADDB);
-    padding: 10px;
+    padding: 20px;
 }
 h1 {
     font-size: 2.4em;
@@ -49,8 +49,8 @@ div#formulario {
     transform: translate(-50%, -50%);
     padding: 10px;
     padding-top: 10px;
-    width: 268px;
-    height: 340px;
+    width: 290px;
+    height: 360px;
 }
 
 ::placeholder {
@@ -73,12 +73,14 @@ p {
 .botoes {
     margin-top: 5px;
     background-color: #DB3B63;
+    height: 38px;
     border: 0px;
     width: 268px;
     padding: 4px;
     border: 2px solid #89233d;
     border-radius: 5px;
     color: white;
+    
 }
 .material-symbols-outlined {
     color: white;
