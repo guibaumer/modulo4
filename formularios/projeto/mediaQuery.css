@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:992px) {
+        section#login {
+            width: 70vw;
+        }
+        div#formulario {
+            width: calc(65vw - 10px);
+        }
+        .backs {
+            width: 45vw;
+        }
+        .botoes {
+            width: 45vw;
+        }
+        .caixas {
+            width: 35vw;
+        }
+}
+
+@media screen and (min-width:992px) {
+    section#login {
+        width: 70vw;
+        height: 70vh;
+    }
+    div#formulario {
+        width: calc(70vw - 10px);
+        height: calc(70vh - 10px);
+    }
+    .backs {
+        width: 45vw;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .botoes {
+        width: 45vw;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .caixas {
+        width: 35vw;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
