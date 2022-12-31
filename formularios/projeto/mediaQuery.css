@@ -2,24 +2,24 @@
 
 @media screen and (min-width:768px) and (max-width:992px) {
         section#login {
-            width: 70vw;
+            width: 550px;
         }
         div#formulario {
-            width: calc(65vw - 10px);
+            width: 530px;
         }
         .backs {
-            width: 45vw;
+            width: 300px;
         }
         .botoes {
-            width: 45vw;
+            width: 300px;
         }
         .caixas {
-            width: 35vw;
+            width: 230px;
         }
 }
 
 @media screen and (min-width:992px) {
-    section#login {
+    /* section#login {
         width: 70vw;
         height: 70vh;
     }
@@ -41,5 +41,21 @@
         width: 35vw;
         padding-top: 5px;
         padding-bottom: 5px;
+    } */
+
+    section#login {
+        width: 550px;
+    }
+    div#formulario {
+        width: 530px;
+    }
+    .backs {
+        width: 300px;
+    }
+    .botoes {
+        width: 300px;
+    }
+    .caixas {
+        width: 230px;
     }
 }
