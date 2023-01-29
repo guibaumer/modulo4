@@ -1,0 +1,192 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap'); 
+
+:root {
+    --corh1: #b13a30;
+    --corSection: rgb(125, 42, 34);
+    --corFooterP: #d64639;
+    --corDados: #d64639;
+    
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif
+}
+body {
+    background-color: #008000;                                              /*#FCA781*/
+    background-image: url(imgs/pexels-pixabay-235767.jpg);
+    background-size: cover;
+    max-height: 100vh;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.336);
+    padding: 20px;
+}
+header h1 {
+    font-size: 3.5em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: var(--corh1);
+    text-shadow: 0px 0px 5px black;
+}
+header h1:hover {
+    font-weight: lighter;
+}
+section#dados {
+    display: inline-block;
+    position: relative;
+    background-color: var(--corSection);   /*#b13a30*/
+    width: 850px;
+    height: 300px;
+    bottom: -40px;
+    border-radius: 0px 50px 50px 0px;
+}
+#circle {
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    background-color: #fff; 
+    float: right; 
+    position: relative;
+    bottom: -25px;
+    margin-right: 45px;
+}
+iframe {
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    height: 330px;
+    width: 330px;
+    overflow: hidden;
+}
+ .nomes {
+    /* position: relative; */
+    width: 350px;
+    height: 35px;
+    /* bottom: -100px; */
+    margin: 8px;
+    border-radius: 18px;
+} 
+#divDados {
+    background-color: var(--corDados);
+    display: inline-block;
+    position: relative;
+    bottom: -65px;
+    padding: 30px;
+    border-radius: 0px 50px 50px 0px;
+}
+#inome {
+    transform: translateX(50px);
+    font-size: 1.2em;
+    padding-left: 10px;
+    outline: none;
+    border: 2px solid black;
+    background-color: #f9ddd0;
+}
+#inome:hover {
+    background-color: white;
+}
+#isobrenome:hover {
+    background-color: white;
+}
+#isobrenome {
+    transform: translateX(-20px);
+    font-size: 1.2em;
+    padding-left: 10px;
+    outline: none;
+    border: 2px solid black;
+    background-color: #f9ddd0;
+}
+#label-nome {
+    transform: translate(55px); 
+}
+#label-sobrenome {
+    transform: translateX(-15px); 
+}
+label {
+    font-size: 1.3em;
+    display: inline-block;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+div#controle {
+    float: right;
+    width: 220px;
+    height: 220px;
+    transform: translate(-22px, 40px);
+}
+.botao-imagem {
+    font-size: 1.1em;
+    border-radius: 6px;
+    width: 160px;
+    padding: 4px;
+    margin: 35px;
+    background-color: #f9ddd0;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.botao-imagem:hover {
+    background-color: #f6e6df;
+    font-size: 1.12em;
+    cursor: pointer;
+}
+#invisivel {
+    
+    display: inline-block;
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0.329);
+    width: 600px;
+    margin-top: 10px;
+    margin-left: 15px;
+    /* position: relative;
+    height: 370px;
+    bottom: 300px; */
+
+       display: none;   
+}
+.imgs-perfil {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin: 30px;
+}
+#botao-voltar {
+    padding: 10px;
+    margin-top: -210px;
+    margin-left: 700px;
+    display: none;
+    font-size: 1.1em;
+    border-radius: 6px;
+    width: 110px;
+    padding: 4px;
+    background-color: #f9ddd0;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+#botao-voltar:hover {
+    background-color: #f6e6df;
+    font-size: 1.12em;
+    cursor: pointer;
+}
+footer {
+    padding: 10px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.336);
+    bottom: -117px;
+    text-align: center;
+    font-style: italic;
+}
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #f4cebc;
+}
+footer p {
+    color: var(--corFooterP);
+    width: 250px;
+    margin: auto;
+}
+footer p:hover {
+   transform: translateY(-2px);
+   transition: 0.5s;
+}

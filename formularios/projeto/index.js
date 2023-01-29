@@ -4,7 +4,7 @@ function entrada() {
     const senhaCorreta = '15142268'; 
      if(senha === senhaCorreta) {
         // window.location.href = "https://www.spacex.com/";
-        location.replace("pagina2.html")
+        location.replace("pagina3.html")
      }
      else {
         window.alert('Senha errada.')

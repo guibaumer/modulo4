@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imgs/favicon-16x16.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>PERFIL</h1>
+    </header>
+    <main>
+       
+        
+        <section id="dados">
+            <div id="divDados">
+                <label for="inome" id="label-nome">NOME: </label>
+                <input type="text" name="" id="inome" class="nomes"  value="Guilherme"> <br> 
+                <label for="isobrenome" id="label-sobrenome">SOBRENOME: </label>
+                <input type="text" name="" id="isobrenome" class="nomes" value="Baumer">
+            </div>
+            
+            <div id="controle">
+                <input type="button" value="MUDAR IMAGEM" class="botao-imagem" onclick="mudarImagem()">
+                <input type="button" value="MUDAR FUNDO" class="botao-imagem" onclick="mudarFundo()">
+            </div>
+        </section>
+        <!-- <div id="destino" style="display: inline;"></div> -->
+        
+        <section id="circle">
+            <iframe src="imgs/pexels-jaime-reimer-14380382.jpg" scrolling="no" name="tela" id="iframeTela" frameborder="0" ></iframe>
+        </section>
+        
+        <div id="invisivel">
+            <a href="imgs/panda-pexels.png.jpg" target="tela"><img class="imgs-perfil" src="imgs/panda-icone.jpg" alt=""></a>
+            <a href="imgs/nova-alce-pexels.jpg" target="tela"><img class="imgs-perfil" src="imgs/alce-icone.jpg" alt=""></a>
+            <a href="imgs/lagarto-novo.jpg" target="tela"><img class="imgs-perfil" src="imgs/pexels-pragyan-bezbaruah-2566315.jpg" alt=""></a>
+            <a href="imgs/noite-grande.jpg" target="tela"><img class="imgs-perfil" src="imgs/noite.jpg" alt=""></a>
+            <a href="imgs/flor-5.jpg" target="tela"><img class="imgs-perfil" src="imgs/flor-icone.jpg" alt=""></a>
+            <a href="imgs/pexels-jaime-reimer-14380382.jpg" target="tela"><img class="imgs-perfil" src="imgs/sol-menor.jpg" alt=""></a>
+        </div>
+        <input type="button" value="VOLTAR" id="botao-voltar" onclick="getBack()">
+        
+    </main>
+    <footer id="cabecalho"><p>Site produzido por <a href="">Guilherme</a>.</p></footer>
+    <script src="actions.js"></script>
+</body>
+</html>
